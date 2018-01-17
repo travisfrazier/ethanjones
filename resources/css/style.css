@@ -8,7 +8,6 @@ body {
 #button {
   border: none;
   background-color: #e74c3c;
-
 }
 
 /* Navigation Styles ----- */
@@ -24,21 +23,18 @@ nav .title {
   color: #e74c3c;
 }
 
+#navigation:hover {
+  color: #3498db;
+}
+
 #navigation {
   color: white;
 }
+
 /* Section Title Styles ----- */
 body > section > h1 {
   padding: 5rem;
   font-weight: bold;
-}
-
-.top-video-row iframe {
-  padding-bottom: 2rem;
-}
-
-#projects {
-  padding-bottom: 5rem;
 }
 
 /* About Section ----- */
@@ -60,6 +56,28 @@ figure img {
 
 iframe {
   max-width: 100%;
+}
+
+#projects > div.row.top-video-row > span > div {
+  margin-bottom: 2rem;
+}
+.caption-div,
+.caption-div-two,
+.caption-div-three,
+.caption-div-four,
+.caption-div-five,
+.caption-div-six {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  margin-top: -.4rem;
+  margin-bottom: 2rem;
+  display: none;
+  z-index: 1000;
+}
+
+#projects {
+  padding-bottom: 5rem;
 }
 /* Contact Section ----- */
 
@@ -154,6 +172,17 @@ footer p {
   margin: 0;
 }
 
+.social-links a {
+  padding-right: 1rem;
+  color: #2980b9;
+}
+
+footer .signature {
+  font-size: 0.30rem;
+  position: relative;
+  top: 4rem;
+}
+
 /* Media Queries ----- */
 @media only screen and (max-width: 768px) {
   #bottom-video-row {
@@ -161,7 +190,7 @@ footer p {
   }
 
   .contact {
-    padding-bottom: 6.5rem;
+    padding-bottom: 6rem;
   }
 
   h1 {
