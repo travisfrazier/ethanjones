@@ -67,13 +67,16 @@ iframe {
 .caption-div-four,
 .caption-div-five,
 .caption-div-six {
-  background-color: black;
-  color: white;
+  color: ;
   padding: 2rem;
   margin-top: -.4rem;
   margin-bottom: 2rem;
   display: none;
   z-index: 1000;
+  width: 400px;
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #projects {
